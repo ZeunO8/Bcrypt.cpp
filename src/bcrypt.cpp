@@ -37,10 +37,10 @@
 #include <sys/types.h>
 #include <string.h>
 
-#include "node_blf.h"
+#include "node_blf.hpp"
 
-#include "bcrypt.h"
-#include "openbsd.h"
+#include "bcrypt.hpp"
+#include "openbsd.hpp"
 
 #ifdef _WIN32
 #define snprintf _snprintf
